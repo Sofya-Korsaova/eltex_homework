@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	double N;
+	double num = 2;
+	double res;
+
+	scanf("%lf", &N);
+
+	res = pow(num, N);
+
+	printf("itog: %.2f\n", res);
+
+	return 0;
+}
